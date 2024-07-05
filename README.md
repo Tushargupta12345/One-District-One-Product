@@ -18,6 +18,7 @@ In our specific implementation of the ODOP project, the primary objective of the
 - **Interactive Map**: A map view to visually explore products by geographic location.
 
 # Screenshots of District JAMMU AND KASHMIR showcasing featured districts and their unique products
+
 ![Screenshot 2024-07-05 174953](https://github.com/Tushargupta12345/One-District-One-Product/assets/123641269/e2e45ae4-c41a-4c7f-a92a-b4f088d80933)
 ![Screenshot 2024-07-05 175030](https://github.com/Tushargupta12345/One-District-One-Product/assets/123641269/8c3dae94-8593-4aea-af7b-f5da87f0109c)
 ![Screenshot 2024-07-05 175109](https://github.com/Tushargupta12345/One-District-One-Product/assets/123641269/8943b20c-ad57-4b2e-b629-926f7aa44f38)
