@@ -1,0 +1,61 @@
+section#slides_parent {
+    padding-bottom: 150px;
+  }
+  
+  .slides {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .slides h4 {
+    color: #444;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 50px;
+  }
+  
+  .slide_1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(255, 129, 129, 0.3)), url(vaishno1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90px;
+    min-width: 60px;
+    height: 550px;
+    border-radius: 40px;
+    margin: 0 15px;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  
+  .slide_1:hover {
+    min-width: 250px;
+  }
+  
+  .slide_1:hover .slide_info {
+    transform: rotate(0deg);
+    left: 20px;
+    bottom: 20px;
+    font-size: 22px;
+  }
+  
+  .slide_2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(vaishno2.jpg);
+  }
+  
+  .slide_3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(vaishno3.webp);
+  }
+  
+  .slide_info {
+    position: absolute;
+    bottom: 51px;
+    color: #ffff;
+    transform: rotate(-90deg);
+    right: 0px;
+    font-weight: 700;
+    font-size: 12px;
+  }
+  a{
+    color: aliceblue;
+  }

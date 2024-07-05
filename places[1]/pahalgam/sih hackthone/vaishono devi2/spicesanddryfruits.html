@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopkeeper Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .shop-container {
+            display: flex;
+            align-items: center;
+            margin: 20px;
+            padding: 20px;
+            border: 2px solid black;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+        }
+
+        .shop-image {
+            flex: 1; /* Adjusted to place the image on the left side */
+            text-align: center;
+            border: 1px solid black;
+            padding: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .shop-details {
+            flex: 2; /* Adjusted to place the shop details on the right side */
+            padding: 20px;
+        }
+
+        .rating {
+            font-size: 0;
+            position: relative;
+            top: -10px; /* Adjusted the position */
+        }
+
+        .rating input[type="radio"] {
+            display: none;
+        }
+
+        .rating label {
+            font-size: 24px;
+            cursor: pointer;
+            padding: 5px;
+        }
+
+        .rating label:before {
+            content: "\2605"; /* Unicode star character */
+        }
+
+        .rating input[type="radio"]:checked ~ label:before {
+            content: "\2605"; /* Filled star character */
+            color: gold;
+        }
+    </style>
+</head>
+<body>
+    <div class="shop-container">
+        <div class="shop-image">
+            <img src="2014-06-16.jpg" alt="Shop 1">
+        </div>
+        <div class="shop-details">
+            <h2>New Subash Dry Fruits</h2>
+            <div class="rating">
+                <input type="radio" id="star5" name="rating" value="5">
+                <label for="star5"></label>
+                <input type="radio" id="star4" name="rating" value="4">
+                <label for="star4"></label>
+                <input type="radio" id="star3" name="rating" value="3">
+                <label for="star3"></label>
+                <input type="radio" id="star2" name="rating" value="2">
+                <label for="star2"></label>
+                <input type="radio" id="star1" name="rating" value="1">
+                <label for="star1"></label>
+            </div>
+            <p>Phone: 07947427192</p>
+            <p>Addrress: Katra HO, Katra - 182301 (Main Bzr)</p>
+            <p>Email: <a href="mailto: shahcarpetskmr@gmail.com">shop1@example.com</a></p>
+        </div>
+    </div>
+
+    <div class="shop-container">
+        <div class="shop-image">
+            <img src="2023-02-10.jpg" alt="Shop 2">
+        </div>
+        <div class="shop-details">
+            <h2>Swasti Dry Fruit
+            </h2>
+            <div class="rating">
+                <input type="radio" id="star5" name="rating" value="5">
+                <label for="star5"></label>
+                <input type="radio" id="star4" name="rating" value="4">
+                <label for="star4"></label>
+                <input type="radio" id="star3" name="rating" value="3">
+                <label for="star3"></label>
+                <input type="radio" id="star2" name="rating" value="2">
+                <label for="star2"></label>
+                <input type="radio" id="star1" name="rating" value="1">
+                <label for="star1"></label>
+            </div>
+            <p>Phone: 987-654-3210</p>
+            <p>Address: Baigra Tent House Street, Jammu Road, Vaishno Devi, Katra - 182301 (Opposite Guru Nanak Parking,)
+
+            </p>
+            <p>Email: <a href="mailto:shop1@example.com">shop1@example.com</a></p>
+        </div>
+    </div>
+
+    <div class="shop-container">
+        <div class="shop-image">
+            <img src="ppp.jpg" alt="Shop 3">
+            
+            
+        </div>
+        <div class="shop-details">
+            <h2>Uphar dry fruits and Shawl Emporium</h2>
+            <div class="rating">
+                <input type="radio" id="star5" name="rating" value="5">
+                <label for="star5"></label>
+                <input type="radio" id="star4" name="rating" value="4">
+                <label for="star4"></label>
+                <input type="radio" id="star3" name="rating" value="3">
+                <label for="star3"></label>
+                <input type="radio" id="star2" name="rating" value="2">
+                <label for="star2"></label>
+                <input type="radio" id="star1" name="rating" value="1">
+                <label for="star1"></label>
+            </div>
+            <p>Phone:070067 80051</p>
+            <p>Address: Basement, Naya Bazar, Main Bazar, Katra Vaishno Devi,, Jammu, India, Jammu and Kashmir
+                India</p>
+            <p>Email: <a href="mailto:shop1@example.com">shop1@example.com</a></p>
+        </div>
+    </div>
+</body>
+</html>
