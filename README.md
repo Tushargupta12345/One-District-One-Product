@@ -17,6 +17,7 @@ In our specific implementation of the ODOP project, the primary objective of the
 - **Responsive Design**: The application is optimized for both desktop and mobile devices.
 - **Interactive Map**: A map view to visually explore products by geographic location.
 
+
 # Screenshots of District JAMMU AND KASHMIR showcasing featured districts and their unique products
 
 ![Screenshot 2024-07-05 174953](https://github.com/Tushargupta12345/One-District-One-Product/assets/123641269/e2e45ae4-c41a-4c7f-a92a-b4f088d80933)
